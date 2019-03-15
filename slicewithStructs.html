@@ -1,0 +1,17 @@
+
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<title>Hello world!</title>
+	</head>
+	<body>
+    {{range $index,$element:= .Bs}}
+    <li>{{$index}} {{$element.First}}</li>
+    {{end}}
+    {{range $index,$element:= .Bs2}}
+    <li>{{$index}} {{$element.First}}</li>
+    {{end}}
+	</body>
+	</html>
+	
